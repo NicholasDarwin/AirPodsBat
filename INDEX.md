@@ -2,8 +2,11 @@
 
 ## 📌 Start Here
 
+👉 **Want to run it RIGHT NOW?** → Double-click [RUN.bat](RUN.bat) or [RUN.ps1](RUN.ps1)
+→ See [QUICK_RUN.md](QUICK_RUN.md) for the 30-second setup
+
 👉 **First Time?** → Read [IMPLEMENTATION_COMPLETE.md](IMPLEMENTATION_COMPLETE.md) for overview
-👉 **Want to Build?** → Follow [SETUP.md](SETUP.md) step-by-step
+👉 **Want to Build Manually?** → Follow [SETUP.md](SETUP.md) step-by-step
 👉 **Want to Understand?** → Start with [README.md](README.md)
 👉 **Need Help?** → Check [TESTING.md](TESTING.md) troubleshooting
 
@@ -115,38 +118,33 @@ DOCUMENTATION
 
 ## ⚡ Quick Start (5 Minutes)
 
-### Step 1: Prepare
+### FASTEST: One-Click Run
+```cmd
+RUN.bat
+```
+or
+```powershell
+RUN.ps1
+```
+
+Done! The app builds and runs automatically.
+
+### If Manual Build Needed
 ```powershell
 # Open PowerShell and navigate to project
 cd c:\Users\UC\Desktop\AirPodBat
 
 # Verify .NET 6.0 is installed
 dotnet --version
-```
 
-If not installed, follow [SETUP.md](SETUP.md) "Prerequisites Installation"
-
-### Step 2: Build
-```powershell
+# Build
 dotnet build
-```
 
-### Step 3: Run
-```powershell
+# Run
 dotnet run
 ```
 
-### Step 4: Test
-1. Turn on AirPods
-2. Hold near computer
-3. Watch bottom-right corner of screen
-4. Battery percentages should appear
-
-### Step 5: Verify
-- ✅ Window appears in bottom-right
-- ✅ Shows three battery percentages (L, R, C)
-- ✅ Values update when battery changes
-- ✅ Read [TESTING.md](TESTING.md) for detailed validation
+**Next:** Turn on AirPods and check bottom-right corner for battery display!
 
 ---
 

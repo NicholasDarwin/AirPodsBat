@@ -188,21 +188,35 @@
 
 ═══════════════════════════════════════════════════════════════════════════
 
-🚀 IMMEDIATE NEXT STEPS:
+🚀 QUICK START - RUN IMMEDIATELY:
+
+   ⚡ FASTEST METHOD - Double-click ONE file:
+   
+      👉 RUN.bat (Windows Command Prompt)
+         or
+      👉 RUN.ps1 (PowerShell)
+      
+      That's it! The app will automatically:
+      ✓ Check if .NET 6.0 SDK is installed
+      ✓ Build the project in Release mode
+      ✓ Launch the overlay window
+      
+      Look for the battery display in the bottom-right corner!
+
+═══════════════════════════════════════════════════════════════════════════
+
+📚 FOR DETAILED SETUP:
 
    STEP 1: Read IMPLEMENTATION_COMPLETE.md (5 minutes)
    ────── Shows what was built and verification checklist
 
    STEP 2: Follow SETUP.md instructions (10 minutes)
-   ────── Install .NET 6.0 SDK and build the project
+   ────── Install .NET 6.0 SDK and build the project manually
 
-   STEP 3: Run the application (2 minutes)
-   ────── dotnet run
-
-   STEP 4: Test with real AirPods (5-10 minutes)
+   STEP 3: Test with real AirPods (5-10 minutes)
    ────── See battery values appear in overlay
 
-   STEP 5: Read MVVM_GUIDE.md if extending (15 minutes)
+   STEP 4: Read MVVM_GUIDE.md if extending (15 minutes)
    ────── Understand architecture for modifications
 
 ═══════════════════════════════════════════════════════════════════════════

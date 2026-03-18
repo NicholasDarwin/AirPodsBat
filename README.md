@@ -1,7 +1,29 @@
 # AirPods Battery Overlay - Windows 10 WPF Application
 
 A real-time overlay application for Windows 10 that displays Apple AirPods 4 battery levels using Bluetooth Low Energy (BLE) scanning.
+## ⚡ Quick Start - Run Immediately
 
+### Just cloned from GitHub? Do this:
+
+```bash
+# Option 1: Windows Command Prompt (Fastest)
+RUN.bat
+
+# Option 2: PowerShell
+RUN.ps1
+
+# Option 3: Manual command line
+dotnet run
+```
+
+The `RUN.bat` or `RUN.ps1` scripts will automatically:
+1. ✅ Check if .NET 6.0 SDK is installed
+2. ✅ Build the project in Release mode
+3. ✅ Launch the overlay window
+
+**Result**: Battery overlay appears in bottom-right corner, scanning for AirPods!
+
+---
 ## Features
 
 - **Real-Time Battery Display**: Shows left earbud, right earbud, and case battery percentages
@@ -180,20 +202,32 @@ The current parser is a **stub implementation** with documented byte offsets. Re
 
 ## Building and Running
 
+### Fastest Method - One-Click Scripts
+
+```bash
+# Windows Command Prompt
+RUN.bat
+
+# Or PowerShell
+RUN.ps1
+```
+
+These scripts automatically build and run the application. All you need is .NET 6.0 SDK installed.
+
 ### Prerequisites
 
 1. Install [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 2. Ensure Windows 10 (build 19041.0 or later)
-3. Visual Studio 2019/2022 or VS Code with C# extension
+3. Visual Studio 2019/2022 or VS Code with C# extension (optional)
 
-### Build
+### Manual Build
 
 ```bash
 cd c:\Users\UC\Desktop\AirPodBat
 dotnet build
 ```
 
-### Run
+### Manual Run
 
 ```bash
 dotnet run

@@ -1,6 +1,25 @@
 # AirPods Battery Overlay - Setup & Build Guide
 
-## Prerequisites Installation
+## ⚡ FASTEST WAY - One-Click Run
+
+**Just downloaded?** Run immediately with:
+
+### Windows
+**Option 1: Double-click RUN.bat**
+- Automatically checks for .NET 6.0 SDK
+- Builds the project in Release mode
+- Launches the overlay window
+- That's it!
+
+**Option 2: PowerShell - Double-click RUN.ps1**
+- Same as above, using PowerShell
+- Colored output and better error messages
+
+The scripts will guide you through everything. No manual steps needed!
+
+---
+
+## Manual Prerequisites Installation
 
 ### 1. Install .NET 6.0 SDK
 
