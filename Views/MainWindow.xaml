@@ -1,0 +1,53 @@
+<Window x:Class="AirPodBat.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AirPods Battery"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        Width="200"
+        Height="120"
+        Left="1720"
+        Top="1400"
+        FontFamily="Segoe UI"
+        FontSize="14">
+    
+    <Grid Background="#1a1a1a" Opacity="0.95" CornerRadius="10">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="15">
+            
+            <!-- Title -->
+            <TextBlock Text="AirPods Battery" Foreground="#ffffff" FontSize="12" FontWeight="Bold" Margin="0,0,0,10" TextAlignment="Center"/>
+            
+            <!-- Battery Display Grid -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <!-- Left Earbud -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="L:" Foreground="#888888" FontSize="11" TextAlignment="Center" Margin="5,0"/>
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding LeftBatteryDisplay}" Foreground="#00ff00" FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="5,2"/>
+                
+                <!-- Right Earbud -->
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="R:" Foreground="#888888" FontSize="11" TextAlignment="Center" Margin="5,0"/>
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding RightBatteryDisplay}" Foreground="#00ff00" FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="5,2"/>
+                
+                <!-- Case -->
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="C:" Foreground="#888888" FontSize="11" TextAlignment="Center" Margin="5,0"/>
+                <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding CaseBatteryDisplay}" Foreground="#00ff00" FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="5,2"/>
+            </Grid>
+            
+            <!-- Status Text -->
+            <TextBlock Text="{Binding Status}" Foreground="#666666" FontSize="9" Margin="0,8,0,0" TextAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
