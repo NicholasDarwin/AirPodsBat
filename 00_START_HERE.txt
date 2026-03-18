@@ -1,15 +1,61 @@
 ╔════════════════════════════════════════════════════════════════════════════╗
 ║                                                                            ║
-║           🎉 AIRPODS BATTERY OVERLAY - PROJECT COMPLETE 🎉               ║
+║              🎉 AIRPODS BATTERY OVERLAY - SUPER SIMPLE 🎉                 ║
 ║                                                                            ║
-║                    Windows 10 WPF Application                             ║
-║              Real-Time Battery Display via Bluetooth LE                   ║
-║                                                                            ║
-║                        Status: ✅ FULLY DELIVERED                         ║
+║                    Windows 10 Real-Time Battery Display                   ║
 ║                                                                            ║
 ╚════════════════════════════════════════════════════════════════════════════╝
 
-📦 WHAT YOU HAVE RECEIVED:
+✨ THIS IS ALL YOU NEED TO DO:
+
+   👉 Double-click RUN.bat
+
+   That's it! The app will:
+   ✓ Check for .NET SDK
+   ✓ Build automatically  
+   ✓ Launch the overlay window
+   ✓ Show AirPods battery in bottom-right corner
+
+═══════════════════════════════════════════════════════════════════════════
+
+🎯 YOU'RE DONE WHEN:
+
+   You see a small overlay window in the BOTTOM-RIGHT CORNER of your screen
+   showing:
+   
+      L: –  R: –  C: –
+   
+   (Turn on AirPods nearby to see real battery %)
+
+═══════════════════════════════════════════════════════════════════════════
+
+❓ WHAT IF SOMETHING GOES WRONG?
+
+   1. Text appears saying ".NET SDK not installed"
+      → Download from: https://dotnet.microsoft.com/download/dotnet/6.0
+      → Run installer, restart, try again
+   
+   2. First run takes a while (10-30 seconds)
+      → That's normal! Building for first time
+      → Subsequent runs are faster
+   
+   3. App shows "–" for battery
+      → Turn on AirPods and bring within 5 meters
+      → Wait 10-20 seconds for battery to appear
+
+═══════════════════════════════════════════════════════════════════════════
+
+📚 MORE INFORMATION:
+
+   README.md              ← Main documentation
+   QUICK_RUN.md          ← Detailed quick start
+   SETUP.md              ← How .NET installation works
+   TESTING.md            ← How to debug battery values
+   MVVM_GUIDE.md         ← For developers
+
+═══════════════════════════════════════════════════════════════════════════
+
+That's all! Just double-click RUN.bat and enjoy your AirPods battery overlay.
 
 ┌─ SOURCE CODE (1,200+ lines) ────────────────────────────────────────────┐
 │                                                                          │

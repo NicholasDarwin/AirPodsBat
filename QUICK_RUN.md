@@ -1,18 +1,23 @@
-# Quick Run Guide - Get Started in 30 Seconds
+# Quick Run Guide - Simply Download & Run
 
-## The Fastest Way to Run
+## The Simplest Way
 
-### What to Do
+### All You Need To Do:
 
-1. **Double-click one of these files**:
-   - `RUN.bat` (Command Prompt) - **Recommended for most users**
-   - `RUN.ps1` (PowerShell)
+1. **Download this project** from GitHub
+2. **Double-click `RUN.bat`** in the folder
+3. **Wait 10-30 seconds** for first build (subsequent runs are faster)
+4. **Done!** Battery overlay appears in bottom-right corner
 
-That's literally it! A terminal window will appear and automatically:
-1. ✅ Verify .NET 6.0 SDK is installed
-2. ✅ Build the project (Release mode for speed)
-3. ✅ Launch the AirPods Battery overlay
-4. ✅ Close itself when done
+That's literally everything. You don't need to know anything about programming.
+
+### What It Does Automatically
+
+When you double-click `RUN.bat`, it:
+1. ✅ Checks if .NET 6.0 SDK is installed
+2. ✅ Builds the project (just downloads and compiles once)
+3. ✅ Launches the overlay window
+4. ✅ Closes automatically when done
 
 ### Expected Result
 
